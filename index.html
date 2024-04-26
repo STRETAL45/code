@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style2.css">
+
+
+</head>
+<body>
+<header class="header">
+    <h1 class="header__title">Хочешь сделать свой сайт?<br>Но у тебя нет навыков?</h1>
+    <button class="button" onclick="scrollDown()"><h1>Да</h1></button>
+    <script>
+        function scrollDown() {
+            window.scrollBy(0, 10000);
+            document.querySelector('.button').style.display = 'none';
+        }
+
+    </script>
+</header>
+<div class="site_header">
+    <div class="main_container">
+        <div class="navigation_container">
+          <div class="logo">
+            <a href="#Header_cite"><img src="logo.png"  width="100" height="111" alt="logo" /></a>
+          </div>
+          <nav>
+            <!--Ссылки навигации сайта-->
+          </nav>
+        </div>
+        <!--Навигационный контейнер-->
+    </div>
+      <!--Основной контейнер-->
+</div>
+<section class="section_2" id="TheProblem">
+      <div class="main_container">
+        <h2 class="titles">Начало</h2>
+        <div class="text_section_2">
+          <p>
+            <h3>Создание сайтов очень трудоёмкий процесс, поэтому вот тебе возможность упростить себе жизнь!
+            </h3></p>
+        </div>
+      </div>
+        <!--Техт второй секции-->
+</section>
+    <!--Вторая cекция-->
+      <!--Основной контейнер-->
+        <div class="container">
+            <div class="text"><h5><strong>No-code</strong><br> Платформа предоставляет столько шаблонов и готовых блоков, что
+            полностью закрывает потребность в усовершенствовании продукта «вручную».
+            Но для кастомизации сайта или выполнения сложных задач этого функционала может
+            не хватить. </h5></div>
+            <div class="text"><h5><strong>Low-code</strong><br> в переводе с английского дословно означает «низкий код».
+            В сервисах, которые используют эту технологию, есть возможность дописать код вручную.
+            Если No-code не предлагает шаблона калькулятора для расчёта страховки,
+            то в Low-code сервисе его можно написать и встроить на сайт, и всё будет работать.</h5></div>
+        <br>
+            <button class="button2"><a href="no-code.html">Узнать больше!</a></button>
+            <a><button class="button2">Узнать больше!</button></a>
+        </div>
+<p></p>
+<div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+      </a>
+      <span class="text-muted">© 2024 Сайт</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+    </ul>
+  </footer>
+</div>
+
+</body>
+</html>
